@@ -1,5 +1,8 @@
-cp ~/dotfiles/.gitconfig ~/
-cp ~/dotfiles/.zshrc ~/
+#!/bin/bash
+
+# Link dotfiles
+ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/.zshrc ~/ ~/.zshrc
 
 # Only run nested steps in Spin workspaces.
 if [[ "$SPIN" = 1 ]]
