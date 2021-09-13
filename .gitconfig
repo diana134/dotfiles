@@ -1,6 +1,6 @@
 [core]
         commitGraph = true
-        editor = code --wait
+        editor = vim --wait
 [diff]
         algorithm = patience
 [gc]
