@@ -7,14 +7,9 @@
         writeCommitGraph = true
 [protocol]
         version = 2
-[url "https://github.com/Shopify/"]
-        insteadOf = git@github.com:Shopify/
-        insteadOf = git@github.com:shopify/
-        insteadOf = ssh://git@github.com/Shopify/
-        insteadOf = ssh://git@github.com/shopify/
 [user]
-        name = Diana Carrier
-        email = diana.carrier@shopify.com
+        name = Artemis
+        email = artemis134codes@gmail.com
 [alias]
         co = checkout
         ci = commit
